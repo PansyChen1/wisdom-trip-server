@@ -1,0 +1,11 @@
+{
+  "name": "trip-server",
+  "version": "1.0.0",
+  "description": "rn app for app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Champion",
+  "license": "MIT"
+}
