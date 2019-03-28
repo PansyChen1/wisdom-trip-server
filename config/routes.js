@@ -9,8 +9,8 @@ module.exports = function () {
     prefix: "/api"
   });
   //user
-  router.post("/signup",App.hasBody, User.signup);
-  router.post("/verify",App.hasBody, User.verify);
+  router.get("/signup",App.hasBody, User.signup);
+  router.get("/verify",App.hasBody, User.verify);
   router.post("/update",App.hasBody, App.hasToken, User.update);
 
 //app

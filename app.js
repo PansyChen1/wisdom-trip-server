@@ -5,9 +5,6 @@ var fs = require('fs');
 var path = require('path');
 var mongoose = require('mongoose');
 
-// require('/app/controllers/user');
-// require('/app/controllers/app');
-
 var db = 'mongodb://localhost:27017/trip-db';
 
 mongoose.Promise = require('bluebird');
