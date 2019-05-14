@@ -11,7 +11,7 @@ exports.getCode = function() {
     digits: 6
   });
   return code;
-}
+};
 
 exports.send = function (phoneNumber, msg) {
   return new Promise(function (resolve, reject) {
